@@ -3,7 +3,6 @@ output "subnet_ids" {
 
 }
 
-
 output "subnet_cidrs" {
   value = aws_subnet.main.*.cidr_block
 }
